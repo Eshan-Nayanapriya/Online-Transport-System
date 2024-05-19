@@ -1,0 +1,63 @@
+@charset "ISO-8859-1";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+   
+    background-image: url("dash4.jpeg");
+    background-repeat: no-repeat;
+    background-size: 2000px auto;
+
+
+}
+.heading{
+    text-align: center;
+    margin-top: 25px;
+}
+.heading h1{
+
+    font-size: 50px;
+    color: black;
+    margin-bottom: 10px;
+}
+.heading p{
+    font-size:20px;
+    margin-bottom: 50px;
+
+}
+.about-us{
+    display: flex;
+    align-items: CENTER;
+    width: 85%;
+    margin: auto;
+
+}
+.about-us img{
+
+    flex: 0 50px;
+    max-width: 50%;
+    height: auto;
+
+}
+
+.content{
+    padding: 35px;
+    border: 2px solid black;
+}
+.content h2{
+   font-size: 25px;
+   margin: 15px 0px;
+
+}
+.content p{
+
+    font-size: 20px;
+    margin: 15px 0px;
+    line-height: 1.5;   
+}
+
+

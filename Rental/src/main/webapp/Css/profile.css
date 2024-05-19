@@ -1,0 +1,105 @@
+@charset "ISO-8859-1";
+
+section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	width: 100%;
+	background: url('dash6.jpeg')no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.form-box {
+	position: relative;
+	width: 400px;
+	height: 550px;
+	background: transparent;
+	border: 2px solid rgba(255, 255, 255, 0.5);
+	border-radius: 20px;
+	backdrop-filter: blur(25px);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-size: 3em;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.but {
+	position: relative;
+	width: 60%;
+	height: 40px;
+	border-radius: 40px;
+	background: #3b96fe;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.but:hover {
+	background: #0077ff;
+}
+
+
+.inputbox {
+	position: relative;
+	margin: 30px 0;
+	width: 310px;
+	border-bottom: none;
+}
+
+.inputbox input {
+	width: 100%;
+	height: 50px;
+	background: transparent;
+	border: none;
+	outline: none;
+	font-size: 1.2em;
+	padding: 0 35px 0 5px;
+	color: #ff0000;
+}
+
+button {
+	width: 60%;
+	height: 40px;
+	border-radius: 40px;
+	background: #3b96fe;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font-size: 1em;
+	font-weight: 600;
+}
+
+button:hover {
+	background: #0077ff;
+}
+
+.search-box {
+	position:relative;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px 40px;
+    background-color: #ff8400;
+    border-radius: 30px;
+}
+.search-box a{
+    color: #fff;
+}
+.search-box:hover{
+    background-color: #fff;
+}
+.search-box:hover a{
+    color: #ff8400;
+}
